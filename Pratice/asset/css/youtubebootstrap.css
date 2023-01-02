@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid; */
+}
+
+
+/* .borders{
+    
+    border-color: black;
+} */
+.border1 {
+    border-radius: 50px 0px 0px 50px !important;
+}
+
+.border2 {
+    border-radius: 0px 50px 50px 0px !important;
+}
+
+.bg-gray {
+    background-color: rgb(212, 210, 210) !important;
+}
+
+.h-30 {
+    height: 18px;
+}
+
+.w-30 {
+    width: 18px;
+}
+
+.padding {
+    color: blue;
+    padding: 2px 17px 2px 17px;
+}
+
+.margin {
+    margin: 8px 10px 5px 20px;
+}
+
+.bg-grayish {
+    background-color: rgb(245, 244, 244);
+
+}
+
+.bg-body1 {
+    background-color: rgb(249, 249, 249);
+}
+
+.text-dark:hover {
+    background-color: rgb(247, 245, 245);
+}
+
+.bg-hover:hover {
+    background-color: rgb(197, 219, 226);
+}
+
+.bg-hover1:hover {
+    background-color: rgb(219, 215, 215);
+}
+
+.bg-hover2:hover {
+    background-color: rgb(240, 237, 237);
+}
+
+.img-w-h {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.d-dropdown {
+    display: none;
+
+}
+
+.icon:hover  .d-dropdown{
+    display: block;
+
+}
+
+.h-15{
+height: 13px;
+} 
+.w-15{
+width: 13px;
+}
+.f-size{
+font-size: 14px;
+}
+.text-size{
+    font-size: 12px;
+}

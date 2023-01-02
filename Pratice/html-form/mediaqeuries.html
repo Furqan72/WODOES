@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 10px;
+        }
+
+        .main-div {
+            background-color: aqua;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .mobile1 {
+            background-color: blueviolet;
+
+        }
+
+        .mobile2 {
+            background-color: yellowgreen;
+
+        }
+
+        .mobile3 {
+            background-color: brown;
+
+        }
+
+        @media (max-width:768.5px) {
+            .mobile1 {
+                background-color: aqua;
+                font-size: 24px;
+            }
+        }
+
+        @media screen and (min-width:768px) and (max-width:991.5px) {
+            .mobile2 {
+                background-color: orangered;
+                font-size: 24px;
+            }
+        }
+
+        @media screen and (min-width:992px) {
+            .mobile3 {
+                background-color: white;
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-div">
+        <div class="mobile1">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente architecto libero, fugiat placeat
+                aspernatur, quas impedit doloribus repellendus ea voluptas iste ratione ad quae asperiores odit
+                molestiae veritatis consectetur accusantium?</p>
+        </div>
+        <div class="mobile2">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente architecto libero, fugiat placeat
+                aspernatur, quas impedit doloribus repellendus ea voluptas iste ratione ad quae asperiores odit
+                molestiae veritatis consectetur accusantium?</p>
+        </div>
+        <div class="mobile3">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente architecto libero, fugiat placeat
+                aspernatur, quas impedit doloribus repellendus ea voluptas iste ratione ad quae asperiores odit
+                molestiae veritatis consectetur accusantium?</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

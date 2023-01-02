@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gricklo</title>
+    <link rel="stylesheet" href="../asset/css/colorlib.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="bg-img">
+        <div>
+            <!-- Navbar -->
+            <!-- Navbar -> Left Side -->
+            <nav class="navbar fixed-top navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="/Pratice/asset/images/logo.png.webp" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+
+                            <li class="container-fluid ">
+                                <div class="input-group bg-theme">
+                                    <span class="input-group-text rounded-border1 bg-transparent border-0 font-color"
+                                        id="basic-addon1">
+                                        <i class="fa-solid fa-magnifying-glass "></i></span>
+                                    <input type="text"
+                                        class="search form-control bg-transparent rounded-border2 border-0 font-color"
+                                        placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active font-color  fw-bold" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle border-0  font-color fw-bold" type="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Listing
+                                    </button>
+                                    <ul class="dropdown-menu rounded-0 bg-dark">
+                                        <li><a class="dropdown-item  font-color  fw-bold" href="#">Listing</a></li>
+                                        <li><a class="dropdown-item  font-color  fw-bold" href="#">Listing Details</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item font">
+                                <a class="nav-link active font-color  fw-bold" aria-current="page" href="#">About</a>
+                            <li class="nav-item">
+                                <div class="dropdown">
+                                    <button class="btn border-0 font-color  fw-bold" type="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">Blog
+                                    </button>
+                                    <ul class="dropdown-menu rounded-0 bg-dark">
+                                        <li><a class="dropdown-item  font-color  fw-bold" href="#">Blog</a></li>
+                                        <li><a class="dropdown-item  font-color  fw-bold" href="#">Blog Details</a></li>
+                                        <li><a class="dropdown-item  font-color  fw-bold" href="#">Element</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active font-color  fw-bold" aria-current="page" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Navbar -> Right Side -->
+                    <div class="d-flex  align-items-center">
+                        <button class="btn nav-item mx-2 border-0  font-color fw-bold" type="submit">
+                            Sign In
+                        </button>
+                        <button class="btn nav-item mx-2 border-0  bg-color fw-bold bg-signin-theme "
+                            type="submit">
+                            Add Listing
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!--  Section -->
+        <section>
+            <div class="container">
+                <div class="row  justify-content-center">
+
+                    <div class="col-9 my-5">
+                        <div class="pt-10 ">
+                            <h1 class="">Listing made easy.</h1>
+                            <p>Explore vacation rentals, bar & restaurants and experiences . Find amazing places to
+                                visit</p>
+                        </div>
+
+                        <!-- Search Tabs -->
+                        <form action="#" class="form-theme">
+                            <div class="input-group w-35 m-10">
+                                <span class="input-group-text border-0 bg-body" id="basic-addon1">What?</span>
+                                <input type="text" class="form-control border-0 bg-body"
+                                    placeholder="Ex: Food, Service, Hotel, Shopping" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                            </div>
+                            <div class="input-group w-35 m-10">
+                                <span class="input-group-text border-0 bg-body" id="basic-addon1">Where?</span>
+                                <input type="text" class="form-control border-0 bg-body" placeholder="Your city..."
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+                            <div class="w-30 m-10 ">
+                                <a href="" class="text-decoration-none a-theme rounded-2">
+                                    <i class="fas fa-search me-2 mt-2"></i>Search</a>
+                            </div>
+                        </form>
+
+                        <!-- List Buttons -->
+                        <div class="text-center">
+                            <ul class="m-0 p-0">
+                                <li class="d-inline-block">
+                                    <a href="" class="text-decoration-none a-theme1 ">Restaurant</a>
+                                </li>
+                                <li class="d-inline-block">
+                                    <a href="" class="text-decoration-none a-theme2">Home</a>
+                                </li>
+                                <li class="d-inline-block">
+                                    <a href="" class="text-decoration-none a-theme1">Party</a>
+                                </li>
+                                <li class="d-inline-block">
+                                    <a href="" class="text-decoration-none a-theme1">Shopping</a>
+                                </li>
+                                <li class="d-inline-block">
+                                    <a href="" class="text-decoration-none a-theme1">Hotel</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- 2nd Section -->
+    <section class="section2-margin">
+        <div class="container">
+            <div class="">
+                <h2 class="text-center text-destination">Top Destination</h2>
+            </div>
+
+            <!-- City Cards -->
+            <div class="row">
+                <div class="col-2 text-center">
+                    <div class="position-relative">
+                        <img src="/Pratice/asset/images/topDesti1.png.webp" alt="">
+                        <h3>New York</h3>
+                        <div class="position1 rounded-5 border-2">
+                            <a href="" class="text-decoration-none font-color2 border-position">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 text-center">
+                    <div class="position-relative">
+                        <img src="/Pratice/asset/images/topDesti2.png.webp" alt="">
+                        <h3>Toronto</h3>
+
+                        <div class="position1 rounded-5 border-2">
+                            <a href="" class="text-decoration-none font-color2 border-position">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 text-center">
+                    <div class="position-relative">
+                        <img src="/Pratice/asset/images/topDesti3.png.webp" alt="">
+                        <h3>Thailand</h3>
+                        <div class="position1 rounded-5 border-2">
+                            <a href="" class="text-decoration-none font-color2 border-position">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 text-center">
+                    <div class="position-relative">
+                        <img src="/Pratice/asset/images/topDesti4.png.webp" alt="">
+                        <h3>Paris</h3>
+                        <div class="position1 rounded-5 border-2">
+                            <a href="" class="text-decoration-none font-color2 border-position">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 text-center">
+                    <div class="position-relative">
+                        <img src="/Pratice/asset/images/topDesti5.png.webp" alt="">
+                        <h3>Dhaka</h3>
+                        <div class="position1 rounded-5 border-2">
+                            <a href="" class="text-decoration-none font-color2 border-position">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 text-center">
+                    <div class="position-relative">
+                        <img src="/Pratice/asset/images/topDesti6.png.webp" alt="">
+                        <h3>Rome</h3>
+                        <div class="position1 rounded-5 border-2">
+                            <a href="" class="text-decoration-none font-color2 border-position">Explore</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 3rd Section -->
+    <section class="section3-color">
+        <div class="container"> 
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center ">
+                        <h2 class="mb-4">Things Are You Interested In</h2>
+                        <p class="p-color">Things you are looking for today</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center text-center">
+                <div class="col-4 p-1 m-0 ">
+                    <div class="position-relative image-card mb-3 rounded-3">
+                        <img src="/Pratice/asset/images/home-blog1.jpg.webp" class="" alt="">
+                        <div class="text-position">
+                            <a href="" class="a-theme3">Restaurant & Bar</a>
+                        </div>
+                    </div>
+                    <div class="position-relative image-card  mb-3 rounded-3">
+                        <img src="/Pratice/asset/images/home-blog2.jpg.webp" class="" alt="">
+                        <div class="text-position">
+                            <a href="" class="a-theme3">Outdoor</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 p-1 m-0">
+                    <div class="position-relative image-card  mb-3 rounded-3">
+                        <img src="/Pratice/asset/images/home-blog3.jpg.webp" class="" alt="">
+                        <div class="text-position1">
+                            <a href="" class="a-theme3">Shopping Center</a>
+                            <p class="p-3 m-0 p-size">Discover & connect with great <br>
+                                local businesses in New York
+                            </p>
+                            <button class="btn button-padding" type="submit">Explore</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 p-1 m-0">
+                    <div class="position-relative image-card  mb-3 rounded-3">
+                        <img src="/Pratice/asset/images/home-blog4.jpg.webp" class="" alt="">
+                        <div class="text-position">
+                            <a href="" class="a-theme3">Restaurant & Bar</a>
+                        </div>
+                    </div>
+                    <div class="position-relative image-card  mb-3 rounded-3">
+                        <img src="/Pratice/asset/images/home-blog5.jpg.webp" class="" alt="">
+                        <div class="text-position">
+                            <a href="" class="a-theme3">Outdoor</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4th Section : SlideShow   NOT DONE  -->
+    <section class="section2-margin">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="h2-size">Popular Things To do</h2>
+                    <p class="p-size1">Popular Exclusive Listings In Our Directory</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- 5th Section :  -->
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center d-flex justify-content-center align-content-center">
+                    <div class="d-flex div-border">
+                        <div>
+                            <h2>Do you want to find more?</h2>
+                            <p class="p-color">10,563 listing for you on our list.</p>
+                        </div>
+
+                        <div class="mx-4 mt-3">
+                            <button class="btn button-padding-1" type="submit">Explore More</button>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Last section -->
+    <section class="last-section-margin">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center padding-col mb-50">
+                    <h2 class="font-size1">How It Work?</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-center hover-color">
+                    <img src="https://preview.colorlib.com/theme/gricklo/assets/img/icon/services1.svg" class="my-3"
+                        alt="">
+                    <h5>
+                        <a href="" class="a-theme5 my-3">
+                            Find Businesses
+                        </a>
+                    </h5>
+                    <p class="p-theme-1 my-4  mx-3 ">
+                        Discover & connect with great local businesses in your local neighborhood like dentists, hair
+                        stylists and more.
+                    </p>
+                </div>
+                <div class="col-4 text-center hover-color">
+                    <img src="https://preview.colorlib.com/theme/gricklo/assets/img/icon/services2.svg" class="my-3"
+                        alt="">
+                    <h5>
+                        <a href="" class="a-theme5 my-4">
+                            Review Listings
+                        </a>
+                    </h5>
+                    <p class="p-theme-1 my-4  mx-3">
+                        Discover & connect with great local businesses in your local neighborhood like dentists, hair
+                        stylists and more.
+                    </p>
+
+
+                </div>
+                <div class="col-4 text-center hover-color">
+                    <img src="https://preview.colorlib.com/theme/gricklo/assets/img/icon/services3.svg" class="my-3"
+                        alt="">
+                    <h5>
+                        <a href="" class="a-theme5 my-4">
+                            Make a Reservation
+                        </a>
+                    </h5>
+                    <p class="p-theme-1 my-4 mx-3">
+                        Discover & connect with great local businesses in your local neighborhood like dentists, hair
+                        stylists and more.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-7 align-content-center justify-content-center">
+                    <div>
+                        <a href=""> <iframe width="560" height="315" src="https://www.youtube.com/embed/up68UAfH0d0"
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></a>
+                    </div>
+                </div>
+                <div class="col-5  align-content-center justify-content-center">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <h2>People talking about</h2>
+                                <p class="p-theme-2">"Discover & connect with great local businesses in your local
+                                    neighborhood like dentists, hair stylists and more unde omnis iste natus error sit
+                                    voluptatem."</p>
+                                <div class="d-flex">
+                                    <img src="https://preview.colorlib.com/theme/gricklo/assets/img/gallery/founder-img.png.webp"
+                                        alt="">
+                                    <div class="d-flex flex-column ps-4 mt-2 ">
+                                        <span class="span-bold">Dan Delion</span>
+                                        <p class="p-theme-3 p-0 m-0">UI & UX Designer at Colorlib</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <h2>People talking about</h2>
+                                <p class="p-theme-2">"Discover & connect with great local businesses in your local
+                                    neighborhood like dentists, hair stylists and more unde omnis iste natus error sit
+                                    voluptatem."</p>
+                                <div class="d-flex">
+                                    <img src="https://preview.colorlib.com/theme/gricklo/assets/img/gallery/founder-img.png.webp"
+                                        alt="">
+                                    <div class="d-flex flex-column ps-4 mt-2 ">
+                                        <span class="span-bold">Dan Delion</span>
+                                        <p class="p-theme-3 p-0 m-0">UI & UX Designer at Colorlib</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <h2>People talking about</h2>
+                                <p class="p-theme-2">"Discover & connect with great local businesses in your local
+                                    neighborhood like dentists, hair stylists and more unde omnis iste natus error sit
+                                    voluptatem."</p>
+                                <div class="d-flex">
+                                    <img src="https://preview.colorlib.com/theme/gricklo/assets/img/gallery/founder-img.png.webp"
+                                        alt="">
+                                    <div class="d-flex flex-column ps-4 mt-2 ">
+                                        <span class="span-bold">Dan Delion</span>
+                                        <p class="p-theme-3 p-0 m-0">UI & UX Designer at Colorlib</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
+        integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>

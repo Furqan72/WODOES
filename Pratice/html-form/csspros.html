@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image-size {
+            width: 15%;
+            height: 500px;
+        }
+
+        .positioning1 {
+            position: static;
+            right: 50px;
+            top: 10px;
+        }
+
+        .positioning2 {
+            position: sticky;
+            right: 50px;
+            top: 10px;
+        }
+
+        .positioning3 {
+            position: absolute;
+            top: 50px;
+            width: 300px;
+            right: 1000px;
+        }
+
+        .positioning4 {
+            position: relative;
+            top: 50px;
+            width: 300px;
+            right: 10px;
+        }
+
+        .button {
+            width: 19%;
+            height: 40px;
+            background-color: rgb(64, 64, 126);
+            color: white;
+            font-family: sans-serif;
+            font-size: 12px;
+            justify-content: center;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color;
+            transition-duration: 1s;
+        }
+
+        .button1 {
+            width: 19%;
+            height: 40px;
+            background-color: rgb(64, 64, 126);
+            color: white;
+            font-family: sans-serif;
+            font-size: 12px;
+            justify-content: center;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color;
+            transition-duration: 1s;
+            transition-timing-function: ease-in;
+        }
+
+        .button2 {
+            width: 19%;
+            height: 40px;
+            background-color: rgb(64, 64, 126);
+            color: white;
+            font-family: sans-serif;
+            font-size: 12px;
+            justify-content: center;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color;
+            transition-duration: 10s;
+            transition-timing-function: ease-out;
+        }
+
+        .button3 {
+            width: 19%;
+            height: 40px;
+            background-color: rgb(126, 64, 88);
+            color: white;
+            font-family: sans-serif;
+            font-size: 12px;
+            justify-content: center;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 2s;
+        }
+
+        .button4 {
+            width: 19%;
+            height: 40px;
+            background-color: rgb(82, 126, 64);
+            color: white;
+            font-family: sans-serif;
+            font-size: 12px;
+            justify-content: center;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: all;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 1s;
+
+        }
+
+        .button:hover {
+            background-color: rgb(86, 226, 43);
+        }
+
+        .button1:hover {
+            background-color: rgb(86, 226, 43);
+        }
+
+        .button2:hover {
+            background-color: rgb(86, 226, 43);
+        }
+
+        .button3:hover {
+            background-color: rgb(226, 162, 43);
+        }
+
+        .button4:hover {
+            background-color: rgb(82, 151, 100);
+            width: 39%;
+            height: 80px;
+            border-radius: 50px;
+            margin-top: 20px;
+
+        }
+        .p1{
+            width: 500px;
+            height: 98%;
+            background-color: black;
+            animation: firstone;
+            animation-duration: 3s;
+            animation-iteration-count: 2;
+        }
+
+        div {
+            background-color: aqua;
+
+        }
+        @keyframes firstone{
+            form{
+width: 100px;
+            }
+            to{
+width:1000px
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="/Pratice/asset/images/squirel.jpg" alt="" class="image-size">
+        <img src="/Pratice/asset/images/jungle.jpg" alt="" class="image-size positioning3">
+        <img src="/Pratice/asset/images/fox.jpg" alt="" class="image-size">
+        <img src="/Pratice/asset/images/lion.jpg" alt="" class="image-size button">
+        <img src="/Pratice/asset/images/squirel.jpg" alt="" class="image-size positioning1">
+        <img src="/Pratice/asset/images/lion.jpg" alt="" class="image-size positioning2">
+
+    </div>
+
+    <div>
+        <img src="/Pratice/asset/images/lion.jpg" alt="" class="image-size">
+        <img src="/Pratice/asset/images/jungle.jpg" alt="" class="image-size">
+        <img src="/Pratice/asset/images/fox.jpg" alt="" class="image-size">
+        <img src="/Pratice/asset/images/squirel.jpg" alt="" class="image-size">
+        <img src="/Pratice/asset/images/lion.jpg" alt="" class="image-size">
+        <img src="/Pratice/asset/images/squirel.jpg" alt="" class="image-size positioning4">
+
+    </div>
+
+    <input type="submit" name="submit" id="" class="buttton">
+    
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button type="submit" class="button">Testing</button>
+    <br>
+    <button type="submit" class="button1">Testing1</button>
+    <br>
+    <button type="submit" class="button2">Testing2</button>
+    <br>
+    <button type="submit" class="button3">Testing3</button>
+    <br>
+    <button type="submit" class="button4">Testing4</button>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="color">
+        <p class="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum tenetur dicta voluptas. Quam cupiditate incidunt illum optio. Porro unde dolorem optio nisi minima, recusandae temporibus odio adipisci laudantium blanditiis officia!</p>
+
+    </div>
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+</body>
+
+</html>

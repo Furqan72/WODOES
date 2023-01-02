@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    padding: 5px;
+}
+.color{
+    background-color: red;
+}
+
+.h-70{
+    height: 70px;
+}
+.w-100{
+    width: 95%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.color1{
+    background-color: yellow;
+}
+.color2{
+    background-color: aquamarine;
+}
+.color3{
+    background-color: blue;
+}
+.h-400{
+    height: 350px;
+}
+.w-92{
+    width: 90%;
+}
+.h-50{
+    height: 50px;
+}
+.h-300{
+    height: 300px;
+}
+.w-20{
+    width: 70px;
+}
+.flex2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
